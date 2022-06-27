@@ -1,0 +1,24 @@
+{
+  "name": "electron-net",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "electron"
+  ],
+  "author": "Rodrigo Lago",
+  "license": "ISC",
+  "dependencies": {
+    "@electron/remote": "^0.0.1",
+    "coingecko-api": "^1.0.10",
+    "electron-fetch": "^1.7.4",
+    "electron-request": "^1.8.1",
+    "node-fetch": "^3.2.6"
+  },
+  "devDependencies": {
+    "electron": "^19.0.6"
+  }
+}

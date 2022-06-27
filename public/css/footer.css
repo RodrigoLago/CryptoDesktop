@@ -1,0 +1,84 @@
+#footer{
+  font-size: 20px;
+  color:rgb(190, 190, 190);
+  margin-top: auto;
+}
+
+.site-footer
+{
+  color:rgb(190, 190, 190);
+  padding:15px 0 15px;
+  font-size:15px;
+  line-height:33px;
+  color:rgb(190, 190, 190);
+}
+
+#footer a
+{
+  color:#006eff;
+  text-decoration:none;
+}
+
+#footer a:hover
+{
+  color:#00ffff;
+  text-decoration:none;
+}
+
+.copyright-text
+{
+  margin:20px
+}
+
+#social-platforms {
+  font-weight: bold;
+  text-align:center;
+}
+#social-platforms a{
+  color:#ffffff
+}
+#social-platforms a:hover{
+  color:#000000
+}
+
+.btn {
+  font-size:19px;
+  font-weight: bold;
+  display:inline-block;
+  border-radius:5px;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.35);
+  margin:10px;
+  
+}
+
+.btn:hover {
+  box-shadow: 0 5px 20px 15px #000000;
+}
+
+
+
+.btn > span,.btn-icon > i {
+  float:right;
+  padding:10px;
+  -webkit-transition:all .5s;
+  -moz-transition:all .5s;
+  transition:all .5s;
+  line-height:1em
+}
+
+.btn:focus > span {
+  background:#0f0f0f
+}
+
+/*Facebook*/
+.btn-facebook > span {
+  background:#3b5998
+}
+/*Twitter*/
+.btn-twitter > span {
+  background:#55acee
+}
+/*Instagram*/
+.btn-instagram > span {
+  background:#ff00FF
+}

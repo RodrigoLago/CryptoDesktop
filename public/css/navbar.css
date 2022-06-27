@@ -1,0 +1,27 @@
+#navigator{
+    font-size: 23px;
+}
+.logo-empresa{
+    max-width: 170px;
+    margin-left: 40px;
+}
+
+.nav-item{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bgcolor{
+    background-color: #0000003a;
+    transition: background-color 400ms linear;
+}
+
+.bgcolorScrolled{
+    background-color: #000000fb;
+    transition: background-color 400ms linear;
+}
+
+#margen-barra{
+    max-width: 300px;
+}
