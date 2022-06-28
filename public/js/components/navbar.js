@@ -1,12 +1,27 @@
-export const Navbar = (img, name, sinopsis, peliculaId) =>`
+export const Navbar = () => `
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top bgcolor" id="navegador">
         <div class="container-fluid">
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 mx-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="./index.html">INICIO</a>
-                    </li>
-                </ul>
+            <div class="row collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="col-md-1">
+                </div>
+                <div class="col-md-10">
+                </div>
+                <div class="col-md-1">
+                    <section id="header-container">
+                        <div class="demo">
+                            <div class="dropdown-container">
+                                <select class="select-currency" id="select-currency">
+                                </select>
+                            </div>
+                        </div>
+                    </section>
+                </div>
             </div>
-        </div>
-    </nav>`
+          </div>
+    </nav>`;
+    
+export const Option = (id,currency) =>`
+    <select>
+        <option value="${id}">${currency}</option>
+    </select>
+`

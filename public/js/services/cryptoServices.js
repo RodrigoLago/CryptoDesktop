@@ -11,8 +11,10 @@ const CoinGeckoClient = new CoinGecko();
 export async function CoinList(callback){   //Lista toda la info
   let data = await CoinGeckoClient.coins.all()
   .then((body)=>{
-    if (body.message=='OK')
+    if (body.message=='OK'){
     callback(body.data)
+    }
+    
   })
 };
 
@@ -23,6 +25,7 @@ export async function Currency(callback){  //Listado de monedas soportadas
     callback(body.data)
   })
 };
+
 export async function CoinListByCurrency(currency){ //Info de la cripto por moneda
   let data = await CoinGeckoClient.coins.markets({
     vs_currency:`${currency}`
