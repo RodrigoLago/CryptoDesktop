@@ -1,12 +1,5 @@
-/*const urlBase = "https://api.coinranking.com/v2/coins";
-const proxy = "https://cors-anywhere.herokuapp.com/";
-const apiKey = "coinranking11475a1bac716d057e7b86ebf3478ae70f76dacc66c0f776";*/
-const url2="https://www.blockchain.com/es/ticker"
-
 const CoinGecko = require('coingecko-api');
-//2. Initiate the CoinGecko API Client
 const CoinGeckoClient = new CoinGecko();
-
 
 export async function CoinList(callback){   //Lista toda la info
   let data = await CoinGeckoClient.coins.all()

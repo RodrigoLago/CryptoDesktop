@@ -20,7 +20,6 @@ const RenderOptions=(array)=>{
         opt.value = i;
         opt.innerHTML = array[i].toUpperCase();
         _selectRoot.appendChild(opt);
-        
     }
 }
 
